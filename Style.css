@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #2C3E50;
+    display: flex;
+    justify-content: center;
+}
+.contenedor {
+    background: white;
+    width: 900px;
+    height: 100vh;
+}
+.titulo {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: #1B2631;
+}
+.contenido {
+    background-color: #616A6B ;
+}
+.contenido ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.contenedor ul li {
+    margin: 0;
+}
+.contenedor ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 21px;
+    text-decoration: none;
+}
+.contenedor ul li a:hover {
+    background-color: #2C3E50;
+}
+
+/*Hola Mundo movible*/
+
+#palabra {
+    position: absolute;
+    font-size: 30px;
+    color: white;
+}
+
+/*Calculadora*/
+
+
+/*Block de notas*/
+
+
+/*Reproductor de videos*/

@@ -2,35 +2,42 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: Arial, sans-serif;
-    background: #2C3E50;
+    background: #FADBD8;
     display: flex;
     justify-content: center;
 }
+
 .contenedor {
     background: white;
     width: 900px;
     height: 100vh;
 }
+
 .titulo {
     display: flex;
     justify-content: center;
     font-size: 40px;
     color: #1B2631;
 }
+
 .contenido {
-    background-color: #616A6B ;
+    background-color: #616A6B;
 }
+
 .contenido ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
 }
+
 .contenedor ul li {
     margin: 0;
 }
+
 .contenedor ul li a {
     display: block;
     color: white;
@@ -38,6 +45,7 @@ body {
     padding: 14px 21px;
     text-decoration: none;
 }
+
 .contenedor ul li a:hover {
     background-color: #2C3E50;
 }
@@ -49,6 +57,28 @@ body {
     font-size: 30px;
     color: white;
 }
+
+.word {
+    position: absolute;
+    font-size: 24px;
+    color: white;
+    animation: appearDisappear 4s infinite;
+}
+
+@keyframes appearDisappear {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 
 /*Calculadora*/
 
